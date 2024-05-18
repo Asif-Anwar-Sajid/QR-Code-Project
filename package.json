@@ -1,0 +1,18 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "\"this QR code generator generates a QR code for the given URL by the user\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "asif-anwar-sajid",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.21",
+    "nodemon": "^3.1.0",
+    "qr-image": "^3.2.0"
+  }
+}
